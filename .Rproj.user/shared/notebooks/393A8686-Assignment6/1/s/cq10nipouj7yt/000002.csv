@@ -1,0 +1,11 @@
+"0","```r
+  fmri_lasso_pred = predict(fmri_lasso, newx= predictors, s=lambda_lasso)
+  fmri_lasso_mse <- mse(fmri_lasso_pred, fmri_train$general)
+```"
+"1","longer object length is not a multiple of shorter object length
+"
+"0","```r
+  fmri_lasso_mse
+```"
+"1","[1] 107.9419
+"

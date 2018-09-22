@@ -1,0 +1,7 @@
+"0","```r
+cost <- function(r, pi = 0) mean(abs(r-pi) > 0.5)
+cvmse <- cv.glm(titanic_test, titanic_mod2, cost = cost)
+cvmse$delta
+```"
+"1","[1] NA NA
+"

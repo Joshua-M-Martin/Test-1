@@ -1,0 +1,6 @@
+"0","Troublesomeness <- table(crime.dat$troublesomeness, crime.dat$convicted)"
+"0","Obedience <- table(crime.dat$obedience_boy, crime.dat$convicted)"
+"0","Daringness <- table(crime.dat$daringness_boy, crime.dat$convicted)"
+"0","Nervousness <- table(crime.dat$nervousness_boy, crime.dat$convicted)"
+"0","Teacher_Rating_Naughty <- table(crime.dat$teacher_rating_naughty, crime.dat$convicted)"
+"0","mosaicplot(Troublesomeness, color = ""red"")"

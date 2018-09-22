@@ -1,0 +1,35 @@
+"0","```r
+model2 <- lda(Species ~ Petal.Length + Petal.Width + Sepal.Length + Sepal.Width, data = traindata, cv = TRUE)
+predy2 <- predict(model2, newdata = testdata)
+confusionMatrix(predy2$class, testdata$Species)
+```"
+"1","Confusion Matrix and Statistics
+
+            Reference
+Prediction   setosa versicolor virginica
+  setosa         10          0         0
+  versicolor      0         16         1
+  virginica       0          0        10
+
+Overall Statistics
+                                          
+               Accuracy : 0.973           
+                 95% CI : (0.8584, 0.9993)
+    No Information Rate : 0.4324          
+    P-Value [Acc > NIR] : 1.675e-12       
+                                          
+                  Kappa : 0.9583          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                 1.0000            1.0000           0.9091
+Specificity                 1.0000            0.9524           1.0000
+Pos Pred Value              1.0000            0.9412           1.0000
+Neg Pred Value              1.0000            1.0000           0.9630
+Prevalence                  0.2703            0.4324           0.2973
+Detection Rate              0.2703            0.4324           0.2703
+Detection Prevalence        0.2703            0.4595           0.2703
+Balanced Accuracy           1.0000            0.9762           0.9545
+"

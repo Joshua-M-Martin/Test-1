@@ -1,0 +1,6 @@
+"0","```r
+lambda_ridge = cv_ridge$lambda.min
+lambda_ridge
+```"
+"1","[1] 2.331177
+"

@@ -1,0 +1,11 @@
+"0","```r
+  fmri_lm_pred <- predict(fmri_lm, newx= predictors)
+  fmri_lm_mse <- mse(fmri_lm_pred, fmri_train$general)
+```"
+"1","longer object length is not a multiple of shorter object length
+"
+"0","```r
+  fmri_lm_mse
+```"
+"1","[1] 122.4602
+"

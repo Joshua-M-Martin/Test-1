@@ -1,0 +1,3 @@
+"0","delinqreduced <- delinquency.dat %>%"
+"0","  dplyr::select(v300, v301, v92, v69, v134, v123, v180, v108, v195, v237, v277, v279, v310, v254, v283) %>% #selects variables"
+"0","  rename(crimrec_parents = v300, delinq_siblings = v301, family_income = v92, family_size = v69, broken_home = v134, physical_neglect = v123, authoratarianism_style = v180 , obedience_boy = v108, daringness_boy = v195, nervousness_boy =  v237, troublesomeness = v277, teacher_rating_naughty = v279, school_results = v310, nonverbal_IQ = v254, verbal_IQ = v283) #renames each variable"

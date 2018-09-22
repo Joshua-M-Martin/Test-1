@@ -1,0 +1,14 @@
+"0","```r
+glimpse(lineup_tables)
+```"
+"1","List of 3
+ $ lineup_1_table: 'table' int [1:8(1d)] 19 18 19 6 38 6 23 4
+  ..- attr(*, \"dimnames\")=List of 1
+  .. ..$ : chr [1:8] \"1\" \"2\" \"3\" \"4\" ...
+ $ lineup_2_table: 'table' int [1:8(1d)] 19 18 19 6 38 6 23 4
+  ..- attr(*, \"dimnames\")=List of 1
+  .. ..$ : chr [1:8] \"1\" \"2\" \"3\" \"4\" ...
+ $ lineup_3_table: 'table' int [1:8(1d)] 43 10 21 22 21 10 3 3
+  ..- attr(*, \"dimnames\")=List of 1
+  .. ..$ : chr [1:8] \"1\" \"2\" \"3\" \"4\" ...
+"

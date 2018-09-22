@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537433133378.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B52D85B7",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1537433133378,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "18DB974",
+        "caption" : "juvenileconvict",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=juvenileconvict&cache_key=18DB974",
+        "displayedObservations" : 411,
+        "environment" : "",
+        "object" : "juvenileconvict",
+        "preview" : 0,
+        "totalObservations" : 411,
+        "variables" : 1
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

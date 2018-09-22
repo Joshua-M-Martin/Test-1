@@ -1,0 +1,4 @@
+"0","```r
+  cv_ridge <- cv.glmnet(predictors, response, alpha = 0)
+  plot(cv_ridge)
+```"

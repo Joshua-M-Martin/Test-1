@@ -1,0 +1,11 @@
+"0","```r
+mse <- c(NULL) #create null vector for placement of test MSE
+for (i in 1:1000){ #loop 1000 times
+titantrain <- dplyr::sample_frac(titanic, 0.75)
+titantest <- dplyr::setdiff(titanic, titantrain) #separate data-sets; will be randomly done everytime
+titantrainpredict <- predict(titanic_mod2) 
+mse[i] <- mse(titantrainpredict, titantest$survived) #calculate test MSE
+}
+# Show mean MSE for training and test
+hist(mse)
+```"

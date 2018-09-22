@@ -1,0 +1,5 @@
+"0","wideconvict.dat <- convict.dat %>%"
+"0","  spread(key = agecat, value = convicted) #create a wide version of conviction data, such that we have 411 rows."
+"0","wideconvict.dat$icpsr_seq_id_number <- as.character(wideconvict.dat$icpsr_seq_id_number) #change to character vector suitable for join"
+"0","crime.dat <- left_join(delinqreduced, wideconvict.dat, by = ""icpsr_seq_id_number"") #create new composite data-set"
+"0","crime.dat %<>% drop_na() #drop cases with NA values for appropriate lda analysis. Since we have a sufficiently large sample, I will drop these listwise."

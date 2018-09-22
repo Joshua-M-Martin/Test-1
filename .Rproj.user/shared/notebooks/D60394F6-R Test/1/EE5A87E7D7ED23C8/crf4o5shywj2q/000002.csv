@@ -1,0 +1,3 @@
+"0","for (i in 1:16) {"
+"0","  crime.dat[,i] <- as.numeric(unlist(crime.dat[,i]))"
+"0","}"

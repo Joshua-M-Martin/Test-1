@@ -1,0 +1,5 @@
+"0","```r
+#Recoding variables
+fmri.dat$SubID <- as.factor(fmri.dat$SubID) #change subID to factor
+names(fmri.dat) <- tolower(names(fmri.dat)) #change all variable names to lower case for ease of use
+```"

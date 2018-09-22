@@ -1,0 +1,6 @@
+"0","```r
+load(\"mockwitness.Rda\")
+```"
+"1","Warning in is.na(le) :
+  is.na() applied to non-(list or vector) of type 'NULL'
+"

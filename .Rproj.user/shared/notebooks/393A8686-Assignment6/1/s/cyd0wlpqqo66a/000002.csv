@@ -1,0 +1,19 @@
+"0","```r
+effsize2 <- function(data, lineupno) {
+tbl <- table(data) #convert to table to calculate respective frequency
+tbl_vec <- as.vector(tbl) #coerce to vector so now our data is the same as the raw data as before
+k <- lineupno #specifies the number of people in the line up. We need to specify it as some individuals may never have been selected.
+e <- sum(tbl_vec)/k 
+o <- c()
+if(typeof(data) == \"character\" ||  typeof(data) == \"factor\") { #gives error when someone enters a non-numeric vector (e.g. character/logical)
+  stop(\"input vector must of type numeric\")
+  }
+if(length(lineupno) > 1){
+  stop(\"second argument must be a single integer\")
+  }
+else{
+  o <- (abs((tbl_vec - e))/(2*e))
+  print(k - sum(o))
+  } 
+}
+```"

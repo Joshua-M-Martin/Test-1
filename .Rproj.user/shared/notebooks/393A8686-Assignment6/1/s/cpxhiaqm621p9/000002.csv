@@ -1,0 +1,5 @@
+"0","```r
+  predictors <- model.matrix(general ~ ., data = fmri.dat) # First we make a model matrix for our predictors
+  response <- fmri.dat$general # Vector as our response 
+  fmri_ridge <- glmnet(predictors, response, alpha = 0) #run the ridge regression using alpha = 0
+```"

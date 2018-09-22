@@ -1,0 +1,19 @@
+"0","```r
+set.seed(199)
+cvmse2 <- cv.glm(titanic_test, titanic_mod2, cost = cost, K = 2)
+cvmse2$delta
+```"
+"1","[1] NA NA
+"
+"0","```r
+cvmse5 <- cv.glm(titanic_test, titanic_mod2, cost = cost, K = 5)
+cvmse5$delta
+```"
+"1","[1] NA NA
+"
+"0","```r
+cvmse10 <- cv.glm(titanic_test, titanic_mod2, cost = cost, K = 10)
+cvmse10$delta
+```"
+"1","[1] NA NA
+"

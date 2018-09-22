@@ -1,0 +1,4 @@
+"0","```r
+fmri_train <- dplyr::sample_frac(fmri.dat, 0.75)
+fmri_test <- dplyr::setdiff(fmri.dat, fmri_train)
+```"

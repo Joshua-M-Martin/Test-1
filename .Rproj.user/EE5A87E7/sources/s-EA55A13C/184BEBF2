@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537433968573.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "184BEBF2",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1537433968573,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E436C89D",
+        "caption" : "traindata",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=traindata&cache_key=E436C89D",
+        "displayedObservations" : "298",
+        "environment" : "",
+        "object" : "traindata",
+        "preview" : "0",
+        "totalObservations" : "298",
+        "variables" : "24"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

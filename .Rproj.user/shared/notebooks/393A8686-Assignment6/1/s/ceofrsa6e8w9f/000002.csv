@@ -1,0 +1,11 @@
+"0","```r
+  fmri_ridge_pred <- predict(fmri_ridge, newx= predictors, s=lambda_ridge)
+  fmri_ridge_mse <- mse(fmri_ridge_pred, fmri_train$general)
+```"
+"1","longer object length is not a multiple of shorter object length
+"
+"0","```r
+  fmri_ridge_mse
+```"
+"1","[1] 99.15578
+"

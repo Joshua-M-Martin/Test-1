@@ -1,0 +1,5 @@
+"0","```r
+lineup_data_raw1 <- lineup_data_raw$lineup_1_data
+lineup_data_raw2 <-lineup_data_raw$lineup_2_data
+lineup_data_raw3 <- lineup_data_raw$lineup_3_data
+```"

@@ -1,0 +1,3 @@
+"0","Physical_Neglect <- table(traindata$physical_neglect, traindata$convicted)"
+"0","Authoritarianism <- table(traindata$authoratarianism_style, traindata$convicted)"
+"0","mosaicplot(Physical_Neglect, color = ""orange"")"

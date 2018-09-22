@@ -1,0 +1,34 @@
+"0","```r
+titanic_mod4 <- glm(survived ~ sex*age + pclass + sex*parch, data = titanic_train, family = \"binomial\")
+summary(titanic_mod4)
+```"
+"1","
+Call:
+glm(formula = survived ~ sex * age + pclass + sex * parch, family = \"binomial\", 
+    data = titanic_train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.3336  -0.6629  -0.3960   0.6413   2.5525  
+
+Coefficients:
+               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)    3.718101   0.521549   7.129 1.01e-12 ***
+sexmale       -0.905404   0.457589  -1.979   0.0479 *  
+age           -0.001181   0.011386  -0.104   0.9174    
+pclass        -1.120661   0.132912  -8.432  < 2e-16 ***
+parch          0.029915   0.162577   0.184   0.8540    
+sexmale:age   -0.058132   0.014484  -4.013 5.98e-05 ***
+sexmale:parch -0.044294   0.245479  -0.180   0.8568    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1079.44  on 795  degrees of freedom
+Residual deviance:  725.99  on 789  degrees of freedom
+  (186 observations deleted due to missingness)
+AIC: 739.99
+
+Number of Fisher Scoring iterations: 5
+"

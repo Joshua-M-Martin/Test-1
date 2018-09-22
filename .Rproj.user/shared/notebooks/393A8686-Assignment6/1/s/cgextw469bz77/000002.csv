@@ -1,0 +1,5 @@
+"0","```r
+lineupsum1 <- lineup_tables$lineup_1_table
+lineupsum2 <- lineup_tables$lineup_2_table
+lineupsum3 <- lineup_tables$lineup_3_table
+```"

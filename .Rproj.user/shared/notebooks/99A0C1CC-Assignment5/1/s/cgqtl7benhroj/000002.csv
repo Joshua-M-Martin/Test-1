@@ -1,0 +1,4 @@
+"0","```r
+predictions <- predict(model1, traindata)
+ldahist(data = predictions$x[,1], g = traindata$Species)
+```"

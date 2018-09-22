@@ -1,0 +1,12 @@
+"0","```r
+  trainpredict <- predict(titanic_mod2) #get predicted values using our model on training
+  testpredict <- predict(titanic_mod2, newdata = titanic_test)  #get predicted values using our model on training
+  mse(trainpredict,titanic_train$survived) #3.92
+```"
+"1","[1] 3.946066
+"
+"0","```r
+  mse(trainpredict,titanic_test$survived) #3.87
+```"
+"1","[1] 4.087562
+"

@@ -1,0 +1,7 @@
+"0","```r
+effective1 <- unlist(effective1)
+confidence_interval(effective1, 0.95)
+```"
+"1","   lower    upper 
+5.808577 5.839596 
+"

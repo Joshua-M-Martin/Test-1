@@ -1,0 +1,1 @@
+"0","crime.dat$convicted <- as.numeric((crime.dat$convicted_as_juvenile + crime.dat$convicted_as_adult) > 0)"

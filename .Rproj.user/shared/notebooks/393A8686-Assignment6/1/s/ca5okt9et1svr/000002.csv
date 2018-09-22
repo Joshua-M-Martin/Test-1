@@ -1,0 +1,4 @@
+"0","```r
+  cv_lasso <- cv.glmnet(predictors, response, alpha = 1)
+  plot(cv_lasso)
+```"

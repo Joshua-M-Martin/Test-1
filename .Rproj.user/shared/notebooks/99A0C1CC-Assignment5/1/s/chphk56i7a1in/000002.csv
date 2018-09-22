@@ -1,0 +1,30 @@
+"0","```r
+titanic_mod1 <- glm(survived ~ sex*age, data = titanic_train, family = \"binomial\")
+summary(titanic_mod1)
+```"
+"1","
+Call:
+glm(formula = survived ~ sex * age, family = \"binomial\", data = titanic_train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.1110  -0.7217  -0.5481   0.7459   2.4038  
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  0.53611    0.28594   1.875  0.06081 .  
+sexmale     -1.05430    0.38865  -2.713  0.00667 ** 
+age          0.02505    0.01009   2.483  0.01301 *  
+sexmale:age -0.05397    0.01328  -4.065 4.79e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1079.44  on 795  degrees of freedom
+Residual deviance:  808.66  on 792  degrees of freedom
+  (186 observations deleted due to missingness)
+AIC: 816.66
+
+Number of Fisher Scoring iterations: 4
+"

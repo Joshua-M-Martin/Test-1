@@ -1,0 +1,4 @@
+"0","```r
+  # We plot the lasso object to see how it has been fit
+  plot(fmri_lasso, xvar = \"lambda\", label = T)
+```"

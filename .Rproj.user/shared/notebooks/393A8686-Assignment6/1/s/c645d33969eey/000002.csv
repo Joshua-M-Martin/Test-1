@@ -1,0 +1,4 @@
+"0","```r
+  # We plot the ridge object to see how it has been fit
+  plot(fmri_ridge, xvar = \"lambda\", label = T)
+```"

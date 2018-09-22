@@ -1,0 +1,17 @@
+"0","```r
+effsize <- function(vec) {
+k <- length(vec)
+e <- sum(vec)/k
+o <- c()
+if(length(vec) < 2) { #gives error when someone enters vector of < 2 (i.e. you need at least 2 members of a line-up for any meaningful comparison)
+  warning(\"input must be vector greater than 1\")
+}  
+if(typeof(data) == \"character\" || typeof(data) == \"factor\"){ #gives error when someone enters a non-numeric vector (e.g. character/logical)
+  warning(\"input vector must of type double\")
+}
+else{
+  o <- (abs((vec - e))/(2*e))
+  print(k - sum(o))
+  } 
+}
+```"

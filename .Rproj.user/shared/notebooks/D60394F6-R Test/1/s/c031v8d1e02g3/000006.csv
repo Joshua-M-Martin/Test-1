@@ -1,0 +1,3 @@
+"0","Family_Size <- table(crime.dat$family_size, crime.dat$convicted)"
+"0","Broken_Home <- table(crime.dat$broken_home, crime.dat$convicted)"
+"0","mosaicplot(Family_Size, color = ""purple"")"

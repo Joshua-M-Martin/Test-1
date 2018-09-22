@@ -1,0 +1,2 @@
+"0","delinqreduced <- add_rownames(delinqreduced, ""icpsr_seq_id_number"")"
+"2","Deprecated, use tibble::rownames_to_column() instead."

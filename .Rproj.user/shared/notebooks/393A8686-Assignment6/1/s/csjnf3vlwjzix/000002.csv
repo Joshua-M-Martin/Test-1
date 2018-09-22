@@ -1,0 +1,10 @@
+"0","```r
+  fmri_ridge_mse_test <- mse(fmri_ridge_pred, fmri_test$general)
+```"
+"1","longer object length is not a multiple of shorter object length
+"
+"0","```r
+  fmri_ridge_mse_test
+```"
+"1","[1] 93.30029
+"

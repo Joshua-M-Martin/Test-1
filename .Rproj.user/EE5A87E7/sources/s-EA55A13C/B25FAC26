@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537257447466.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B25FAC26",
+    "lastKnownWriteTime" : 1537620334,
+    "last_content_update" : 1537620396889,
+    "path" : "~/Test 1/R Test.Rmd",
+    "project_path" : "R Test.Rmd",
+    "properties" : {
+        "cursorPosition" : "9,17",
+        "scrollLine" : "1",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

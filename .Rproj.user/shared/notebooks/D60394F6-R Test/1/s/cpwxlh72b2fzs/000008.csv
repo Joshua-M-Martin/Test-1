@@ -1,0 +1,4 @@
+"0","Verbal_IQ <- table(crime.dat$verbal_IQ, crime.dat$convicted)"
+"0","Non_Verbal_IQ <- table(crime.dat$nonverbal_IQ, crime.dat$convicted)"
+"0","School_Results <- table(crime.dat$school_results, crime.dat$convicted)"
+"0","mosaicplot(Verbal_IQ, color = ""black"")"

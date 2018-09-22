@@ -1,0 +1,29 @@
+"0","```r
+model1 <- lda(Species ~ Petal.Length + Petal.Width + Sepal.Length + Sepal.Width, data = traindata)
+model1
+```"
+"1","Call:
+lda(Species ~ Petal.Length + Petal.Width + Sepal.Length + Sepal.Width, 
+    data = traindata)
+
+Prior probabilities of groups:
+    setosa versicolor  virginica 
+ 0.3571429  0.3035714  0.3392857 
+
+Group means:
+           Petal.Length Petal.Width Sepal.Length Sepal.Width
+setosa         1.460000    0.242500     4.935000    3.362500
+versicolor     4.294118    1.352941     5.955882    2.814706
+virginica      5.528947    2.018421     6.594737    2.984211
+
+Coefficients of linear discriminants:
+                   LD1        LD2
+Petal.Length -2.471810  1.3807048
+Petal.Width  -3.035581 -3.3614449
+Sepal.Length  0.850314 -0.3593029
+Sepal.Width   1.509044 -1.8382967
+
+Proportion of trace:
+  LD1   LD2 
+0.995 0.005 
+"

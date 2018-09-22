@@ -1,0 +1,3 @@
+"0","Parent_Record <- table(crime.dat$crimrec_parents, crime.dat$convicted)"
+"0","Sibling_Delinquency <- table(crime.dat$delinq_siblings, crime.dat$convicted)"
+"0","mosaicplot(Parent_Record, color = ""red"")"
